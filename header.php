@@ -28,7 +28,7 @@
 
       </header>
       <section>
-        <p>
+        <p class="links">
 <a href="http://studioware.org">Home</a> |
 <a href="http://www.studioware.org/wiki/index.php?title=Application_List">Applications List</a> |
 <a href="http://studioware.org/slackbuilds/">SlackBuilds</a> |

@@ -14,6 +14,7 @@ date_default_timezone_set('UTC');
 $lists   = get_filtered_dirlist($location, 'slackbuilds');
 $files   = $lists['files'];
 $folders = $lists['folders'];
+$folders = array_diff($folders, array(".dev"));
 
 // simulate some breadcrumbs
 $crumbs = explode('/',$location);
@@ -56,7 +57,7 @@ if (isset($crumb)) {
         // left div
         print "<div style=\"float: left;\"><p>\n";
 
-        print "Homepage:<br />\n";
+        print "Homepage:&nbsp;<br />\n";
         print "Source:<br />\n";
         for ( $i = 1; $i < count($download); $i++ )
         {
