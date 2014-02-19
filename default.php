@@ -8,7 +8,7 @@ $pageTitle="The Studioware Project";
 <hr><h3>
 <a name="about-the-studioware-project" class="anchor" href="#about-the-studioware-project"><span class="octicon octicon-link"></span></a>About The Studioware Project</h3>
 
-<p>Studioware is a project aimed at providing build scripts and packages of the best open source music and audio editing software available for Slackware Linux.
+<p>Studioware is a project aimed at providing build scripts and packages of the best open source audio and video editing software available for Slackware Linux.
 We also include libraries and other dependencies with a comprehensive dependency list for each package so you will know exactly what you need to install.
 Although Studioware is quite a small project, we are Slackware users of many years experience and intend to share our experiences of building and running the software on the wiki. Most of us are musicians too.</p>
 
