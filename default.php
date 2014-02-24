@@ -15,7 +15,13 @@ Although Studioware is quite a small project, we are Slackware users of many yea
 <h3>
 <a name="network" class="anchor" href="#network"><span class="octicon octicon-link"></span></a>Network</h3>
 
+IRC: irc.freenode.net #studioware</br>
+IRC2: irc.oftc.net #studioware (backup channel)</br>
+Mailing list: <a href="http://    groups.google.com/group/studioware">http://groups.google.com/group/studioware</a>
+
+<!--
 <p>Apart from this website we also have an IRC channel and mailing list. Everyone is welcome to join #studioware on irc.freenode.net. The mailing list can be found here: <a href="http://groups.google.com/group/studioware">http://groups.google.com/group/studioware</a></p>
+-->
 
 <h3>
 <a name="get-involved" class="anchor" href="#get-involved"><span class="octicon octicon-link"></span></a>Get Involved!</h3>
