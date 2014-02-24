@@ -80,7 +80,7 @@ h4, h5, h6 {
 }
 
 a {
-  color:#000033;
+  color:#000060;
   font-weight:200;
   text-decoration:none;
 }
@@ -305,6 +305,9 @@ a.github {
 	background: url(../images/octocat-small.png) no-repeat 1px;
 }
 
+a.quick {
+	background: url(../images/arrow-up.png) no-repeat 1px;
+}
 a.buttons:hover {
 	color: #fff;
 	text-decoration: none;

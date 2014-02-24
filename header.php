@@ -19,10 +19,10 @@
     <div class="wrapper">
       <header>
         <h1 class="header">Studioware</h1>
-<!--        <p class="header">Visit us on Github</p> -->
+        <p class="header">We make the tools.</br>You make the music.</p> 
 
         <ul>
-          <li class="download"><a class="buttons" href="http://docs.slackware.com/studioware:quick_start">Quick Start</a></li>
+          <li><a class="buttons quick" href="http://docs.slackware.com/studioware:quick_start">Quick Start</a></li>
           <li class="download"><a class="buttons" href="https://github.com/eviljames/studioware/zipball/master">Download ZIP</a></li>
           <li class="download"><a class="buttons" href="https://github.com/eviljames/studioware/tarball/master">Download TAR</a></li>
           <li><a class="buttons github" href="https://github.com/eviljames/studioware">View On GitHub</a></li>
@@ -32,10 +32,10 @@
       <section>
         <p class="links">
 <a href="http://studioware.org">Home</a> |
-<a href="http://docs.slackware.com/studioware:applications_list">Applications List</a> |
+<a href="http://docs.slackware.com/studioware:applications_list">Applications</a> |
 <a href="http://studioware.org/slackbuilds/">SlackBuilds</a> |
 <a href="http://studioware.org/packages">Packages</a> |
-<a href="http://studioware.org/wiki/index.php?title=Slackpkg%2Bsbopkg">Slackpkg+Sbopkg</a> |
+<!-- <a href="http://studioware.org/wiki/index.php?title=Slackpkg%2Bsbopkg">Slackpkg/Sbopkg</a> |-->
 <a href="http://studioware.org/studiopkg">Studiopkg</a> |
 <a href="http://studioware.org/sepkg">Sepkg</a> |
 <a href="http://docs.slackware.com/studioware:start">Wiki</a> |
