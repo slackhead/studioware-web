@@ -20,11 +20,9 @@ and is hosted by the Slackware Documentation Project. See the <a href="http://do
 <p>
 IRC: irc.freenode.net #studioware</br>
 IRC2: irc.oftc.net #studioware (backup channel)</br>
-Mailing list: <a href="http://groups.google.com/group/studioware">http://groups.google.com/group/studioware</a></p>
+<!--Old Mailing list: <a href="http://groups.google.com/group/studioware">http://groups.google.com/group/studioware</a></br>-->
+Mailing list: <a href="http://studioware.org/mailman/listinfo/users_studioware.org">http://studioware.org/mailman/listinfo/users_studioware.org</a></p>
 
-<!--
-<p>Apart from this website we also have an IRC channel and mailing list. Everyone is welcome to join #studioware on irc.freenode.net. The mailing list can be found here: <a href="http://groups.google.com/group/studioware">http://groups.google.com/group/studioware</a></p>
--->
 
 <h3>
 <a name="get-involved" class="anchor" href="#get-involved"><span class="octicon octicon-link"></span></a>Get Involved!</h3>
