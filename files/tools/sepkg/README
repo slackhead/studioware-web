@@ -1,7 +1,7 @@
 Sepkg - The Studioware Package Builder
 
 Options
-<font style="font-family: monospace; font-size: 1.5pt;">
+<font style="font-family: monospace;">
 sepkg info/-f &lt;package&gt; ...................... shows info file
 sepkg update/-u .............................. syncs with file server
 sepkg search/-s &lt;grep term&gt; .................. search for package name or part name

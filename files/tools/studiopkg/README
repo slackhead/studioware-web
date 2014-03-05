@@ -1,7 +1,7 @@
 Studiopkg - The Studioware Package Installer
 
 Options
-<font style="font-family:monospace;font-size: 1pt;">
+<font style="font-family:monospace;">
 studiopkg update/-u ....................... syncs with file server
 studiopkg search/-s &lt;grep term&gt; ........... search for package name or part name
 studiopkg install/-i package1 package2... . install packages
