@@ -15,6 +15,7 @@ $lists   = get_filtered_dirlist($location, 'slackbuilds');
 $files   = $lists['files'];
 $folders = $lists['folders'];
 $folders = array_diff($folders, array(".testing"));
+$folders = array_diff($folders, array(".subs"));
 
 // simulate some breadcrumbs
 $crumbs = explode('/',$location);
