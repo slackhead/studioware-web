@@ -4,7 +4,7 @@ Options
 <font style="font-family:monospace;">
 studiopkg update/-u ....................... syncs with file server
 studiopkg search/-s &lt;grep term&gt; ........... search for package name or part name
-studiopkg install/-i package1 package2... . install packages
+studiopkg install/-i package1 package2..... install packages
 studiopkg install/-i &lt; &lt;queuefile&gt; ........ install packages from file
 studiopkg install-all ..................... install all packages 
 studiopkg upgrade/-up &lt;package&gt; ........... upgrade package
