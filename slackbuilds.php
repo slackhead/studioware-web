@@ -16,6 +16,7 @@ $files   = $lists['files'];
 $folders = $lists['folders'];
 $folders = array_diff($folders, array(".testing"));
 $folders = array_diff($folders, array(".subs"));
+$folders = array_diff($folders, array(".newlayout"));
 
 // simulate some breadcrumbs
 $crumbs = explode('/',$location);
