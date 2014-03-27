@@ -188,6 +188,7 @@ p {
 .readme {
 	white-space: pre-wrap;
         padding-bottom: 10px;
+	font-size: 1em;
 }
 .warning {
 	font-size: 1em;

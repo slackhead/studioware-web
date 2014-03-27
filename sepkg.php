@@ -31,7 +31,7 @@ if (file_exists("files/$location/README")) {
 <?php endif; ?>
 
 <?php if ($readme): ?>
-<p class="readme"><?php echo $readme; ?></p>
+<p class="readme" style="width: 850px;"><?php echo $readme; ?></p>
 <?php endif; ?>
 
 <?php if (!empty($folders) || !empty($files)): ?>
@@ -43,7 +43,7 @@ if (file_exists("files/$location/README")) {
 	</li>
 <?php foreach ($folders as $folder): ?>
 	<li class="folder">
-		<a class="name" href="<!--SITEURL-->/<?php echo "$location/$folder/"; ?>"><?php echo $folder; ?>/</a>
+		<a class="name" href="<!--SITEURL-->/<?php echo "files/$location/$folder/"; ?>"><?php echo $folder; ?>/</a>
 		<span class="size">Directory</span>
 		<span class="time"><?php echo date("Y-m-d H:i:s", filemtime("files/$location/$folder")); ?>
 	</li>

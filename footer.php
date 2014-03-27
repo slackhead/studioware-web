@@ -1,6 +1,6 @@
 			<div id="footer">
-                            <p><small>This site is styled using the <a href="https://pages.github.com">GitHub Pages</a> Dinky theme</p>
-				<p>All content &copy; studioware.org<br />
+                            <p><small>This site style is based on <a href="https://github.com/broccolini/dinky">Broccolini's</a> Dinky theme.<br />
+				All content &copy; studioware.org<br />
 				Slackware&reg; &copy; Patrick Volkerding<br />
 				Linux&reg; &copy; Linus Torvalds<br />
                             </small></p>

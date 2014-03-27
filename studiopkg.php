@@ -32,7 +32,7 @@ if (file_exists("files/$location/README")) {
 <?php endif; ?>
 
 <?php if ($readme): ?>
-<p class="readme"><?php echo $readme; ?></p>
+<p class="readme" style="width: 780px;"><?php echo $readme; ?></p>
 <?php endif; ?>
 
 <?php if (!empty($folders) || !empty($files)): ?>

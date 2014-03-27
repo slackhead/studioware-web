@@ -20,7 +20,7 @@ $pageTitle = 'Studioware';
 <title><!--TITLE--></title>
 
 <link href="/files/main.css" rel="stylesheet" type="text/css"/>
-<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="shortcut icon" href="logo_take1-s-favicon.png"/>
 
 <meta name="description" content="Studioware - bringing audio to Slackware."/>
 <meta name="keywords" content="studioware,slackware,audio,sound,recording"/>
