@@ -14,6 +14,8 @@ date_default_timezone_set('UTC');
 $lists   = get_filtered_dirlist($location, 'packages');
 $files   = $lists['files'];
 $folders = $lists['folders'];
+$folders = array_diff($folders, array("back-slackware-14.1"));
+$folders = array_diff($folders, array("back-slackware64-14.1"));
 
 // simulate some breadcrumbs
 $crumbs = explode('/',$location);
