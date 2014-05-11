@@ -5,7 +5,7 @@ $pageTitle="Studioware Project Links";
 <div class="centre-col">
 
 <p>
-<a href="http://studioware.org/mailman/listinfo">http://studioware.org/mailman/listinfo</a>
+<a href="http://lists.studioware.org">http://lists.studioware.org</a>
 Studioware mailing lists<br />
 <br />
 <a href="http://slackermedia.info" title="Slackermedia">http://slackermedia.info</a>

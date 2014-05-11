@@ -21,7 +21,7 @@ and is hosted by the Slackware Documentation Project. See the <a href="http://do
 IRC: irc.freenode.net #studioware</br>
 IRC2: irc.oftc.net #studioware (backup channel)</br>
 <!--Old Mailing list: <a href="http://groups.google.com/group/studioware">http://groups.google.com/group/studioware</a></br>-->
-Mailing list: <a href="http://studioware.org/mailman/listinfo/users_studioware.org">http://studioware.org/mailman/listinfo/users_studioware.org</a></p>
+Mailing list: <a href="http://lists.studioware.org">http://lists.studioware.org</a></p>
 
 
 <h3>
