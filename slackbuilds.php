@@ -85,7 +85,7 @@ if (isset($crumb)) {
         if ( array_key_exists('REQUIRES', $info) )
         {
             if ( $requires[0] != "" )
-            {   
+            {
                 print "Requires:<br />\n";
             }
         }
@@ -97,7 +97,7 @@ if (isset($crumb)) {
 
         // right div
         print "<div style=\"margin-top: 10px; margin-bottom:20px;\"><p>";
-        
+
         print "<a class=\"toplink\" href=\"" . $homepage . "\">" . $homepage . "</a><br />";
         for ( $i = 0; $i < count($download); $i++ )
         {
@@ -107,7 +107,7 @@ if (isset($crumb)) {
         {
             print $md5sum[$i]. "<br />\n";
         }
-        
+
         if ( $download64[0] != "" )
         {
             for ( $i = 0; $i < count($download64); $i++ )
@@ -123,7 +123,7 @@ if (isset($crumb)) {
         if ( array_key_exists('REQUIRES', $info) )
         {
             if ( $requires[0] != "" )
-            {   
+            {
                 print $requires[0] . "<br />\n";
             }
         }

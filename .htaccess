@@ -1,4 +1,5 @@
 ErrorDocument 404 404
+Options +Indexes
 RewriteEngine On
 RewriteCond $1 !^(mesa|index\.php|robots\.txt|images|js|wiki|stylesheets|css|files)
 RewriteRule ^(.*)$ /index.php/$1 [L]

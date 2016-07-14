@@ -15,9 +15,10 @@ function get_filtered_dirlist($location, $defaultpath, $userexcludes = array()) 
 		if (in_array($listent, $excludes, true)) {
 			continue;
                 }
-                  else if (strpos("$listent", ".tar.gz") > 0) {
-                        continue;
-		} else if (is_dir("files/$location/$listent")) {
+                  //else if (strpos("$listent", ".tar.gz") > 0) {
+                  //      continue;
+        //} 
+        else if (is_dir("files/$location/$listent")) {
 			$folders[] = $listent;
 		} else {
 			$files[] = $listent;
