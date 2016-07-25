@@ -37,7 +37,7 @@
 <!--<a href="http://studioware.org/packages">Packages</a> |
  <a href="http://studioware.org/wiki/index.php?title=Slackpkg%2Bsbopkg">Slackpkg/Sbopkg</a> |-->
 <!-- <a href="http://studioware.org/studiopkg">Studiopkg</a> |-->
-<a href="http://studioware.org/sepkg">Sepkg</a> |
+<a href="http://studioware.org/files/tools/sepkg">Sepkg</a> |
 <a href="http://docs.slackware.com/studioware:start">Wiki</a> |
 <a href="http://studioware.org/links">Links</a></p>
 
