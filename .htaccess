@@ -6,3 +6,4 @@ RewriteRule ^(.*)$ /index.php/$1 [L]
 AddType application/x-gzip txz
 AddType text/plain md5
 AddType text/plain sh
+AddType text/plain sqf
