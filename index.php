@@ -37,11 +37,11 @@ $parts = explode('?', $request_uri, 2);
 $navigation = array_shift($parts);
 
 if (!empty($parts[0])) {
-	$paramlist = explode('&', $parts[0]);
-	foreach($paramlist as $param) {
-		$parampart = explode('=', $param, 2);
-		$params[$parampart[0]] = $parampart[1];
-	}
+    $paramlist = explode('&', $parts[0]);
+    foreach($paramlist as $param) {
+        $parampart = explode('=', $param, 2);
+        $params[$parampart[0]] = $parampart[1];
+    }
 }
 unset($parts);
 
@@ -53,12 +53,12 @@ $view = explode('/', $navigation);
 $view = array_shift($view);
 
 if (file_exists($view . '.php')) {
-	$page = $view . '.php';
+    $page = $view . '.php';
 } else if (file_exists($navigation . '.php')) {
-	$page = $navigation . '.php';
+    $page = $navigation . '.php';
 } else {
-	// no 404 here, just the default.
-	$page = 'default.php';
+    // no 404 here, just the default.
+    $page = 'default.php';
 }
 
 /** Build the page **/

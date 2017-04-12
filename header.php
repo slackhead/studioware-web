@@ -34,8 +34,8 @@
 <a href="http://studioware.org">Home</a> |
 <a href="http://docs.slackware.com/studioware:applications_list">Applications</a> |
 <a href="http://studioware.org/slackbuilds/">SlackBuilds</a> |
-<!--<a href="http://studioware.org/packages">Packages</a> |
- <a href="http://studioware.org/wiki/index.php?title=Slackpkg%2Bsbopkg">Slackpkg/Sbopkg</a> |-->
+<a href="http://studioware.org/packages/">Packages</a> |
+<!--<a href="http://studioware.org/wiki/index.php?title=Slackpkg%2Bsbopkg">Slackpkg/Sbopkg</a> |-->
 <!-- <a href="http://studioware.org/studiopkg">Studiopkg</a> |-->
 <a href="http://docs.slackware.com/studioware:quick_start">Quick Start</a> |
 <a href="http://studioware.org/files/tools/sepkg">Sepkg</a> |
