@@ -23,7 +23,7 @@ $crumbs = explode('/',$location);
 
 // is there a readme?
 if (file_exists("files/$location/README")) {
-	$readme = file_get_contents("files/$location/README");
+    $readme = file_get_contents("files/$location/README");
         $readme = str_replace("<", "&lt;", $readme);
         $readme = str_replace(">", "&gt;", $readme);
 }
@@ -139,24 +139,24 @@ if (isset($crumb)) {
 
 <?php if (!empty($folders) || !empty($files)): ?>
 <ul class="listing">
-	<li class="heading">
-		<span class="name">Filename</span>
-		<span class="size">Size</span>
-		<span class="time">Modification Time</span>
-	</li>
+    <li class="heading">
+        <span class="name">Filename</span>
+        <span class="size">Size</span>
+        <span class="time">Modification Time</span>
+    </li>
 <?php foreach ($folders as $folder): ?>
-	<li class="folder">
-		<a class="name" href="<!--SITEURL-->/<?php echo "$location/$folder/"; ?>"><?php echo $folder; ?>/</a>
-		<span class="size">Directory</span>
-		<span class="time"><?php echo date("Y-m-d H:i:s", filemtime("files/$location/$folder")); ?>
-	</li>
+    <li class="folder">
+        <a class="name" href="<!--SITEURL-->/<?php echo "$location/$folder/"; ?>"><?php echo $folder; ?>/</a>
+        <span class="size">Directory</span>
+        <span class="time"><?php echo date("Y-m-d H:i:s", filemtime("files/$location/$folder")); ?>
+    </li>
 <?php endforeach; ?>
 <?php foreach($files as $file): ?>
-	<li>
-		<a class="name" href="<!--SITEURL-->/files/<?php echo "$location/$file"; ?>"><?php echo $file; ?></a>
-		<span class="size"><?php echo round(filesize("files/$location/$file")/1024); ?> KB</span>
-		<span class="time"><?php echo date("Y-m-d H:i:s", filemtime("files/$location/$file")); ?></span>
-	</li>
+    <li>
+        <a class="name" href="<!--SITEURL-->/files/<?php echo "$location/$file"; ?>"><?php echo $file; ?></a>
+        <span class="size"><?php echo round(filesize("files/$location/$file")/1024); ?> KB</span>
+        <span class="time"><?php echo date("Y-m-d H:i:s", filemtime("files/$location/$file")); ?></span>
+    </li>
 <?php endforeach; ?>
 </ul>
 <?php endif; ?>
