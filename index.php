@@ -68,6 +68,7 @@ require_once "header.php";
 ?>
 <div id="content" class="clearfix">
 <?php require_once $page;
+
 require_once "footer.php"; ?>
 <?php
 /** Actually do the output **/
