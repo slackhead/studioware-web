@@ -35,13 +35,6 @@ if (file_exists("files/$location/README")) {
         <span class="size">Size</span>
         <span class="time">Modification Time</span>
     </li>
-<?php foreach ($folders as $folder): ?>
-    <li class="folder">
-        <a class="name" href="<!--SITEURL-->/<?php echo "files/$location/$folder/"; ?>"><?php echo $folder; ?>/</a>
-        <span class="size">Directory</span>
-        <span class="time"><?php echo date("Y-m-d H:i:s", filemtime("files/$location/$folder")); ?>
-    </li>
-<?php endforeach; ?>
 <?php foreach($files as $file): ?>
     <li>
         <a class="name" href="<!--SITEURL-->/<?php echo "files/$location/$file"; ?>"><?php echo $file; ?></a>
