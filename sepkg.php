@@ -1,6 +1,6 @@
 <?php
 /**
- * slackbuilds.php
+ * sepkg.php
  */
 $path     = dirname(realpath(__FILE__));
 $location = 'tools/'.str_replace("/..", '',$navigation);

@@ -13,7 +13,7 @@
  * <!--SITEURL--> - replaced with $siteURL
  *
  * PHP variables:
- * 
+ *
  * $pageTitle - what gets placed in the <title> tag.
  * $siteURL - the main url.
  *

@@ -39,6 +39,7 @@
 <!-- <a href="http://studioware.org/studiopkg">Studiopkg</a> |-->
 <a href="http://docs.slackware.com/studioware:quick_start">Quick Start</a> |
 <a href="http://studioware.org/sepkg/">Sepkg</a> |
+<a href="http://studioware.org/iso.php">Studioware Live</a> |
 <a href="http://docs.slackware.com/studioware:start">Wiki</a> |
 <a href="http://studioware.org/links">Links</a></p>
 
