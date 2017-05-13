@@ -35,13 +35,16 @@ copied to a USB stick using dd or his iso2usb.sh script. More details here:
 </p>
 
 <p>
-There is a package update and one new package that you may want to install after
+There is a package update that you may want to install after
 booting.<br />
 <br />
 To update, use sepkg:<br />
 sepkg -u<br />
-sepkg -i cpufreq<br />
 sepkg -i fluxbox-menus<br />
+<br />
+This provides /usr/share/fluxbox/menu which contains our Studioware menus.
+If you have not yet run fluxbox, it will be copied to ~/.fluxbox/menu on its first run.
+If have already booted into fluxbox, you can copy the file manually to get our menus.
 </p>
 <div id="content" class="clearfix">
 <?php
