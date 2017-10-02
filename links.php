@@ -5,8 +5,8 @@ $pageTitle="Studioware Project Links";
 <div class="centre-col">
 
 <p>
-<a href="http://lists.studioware.org">http://lists.studioware.org</a>
-Studioware mailing lists<br />
+<a href="https://groups.google.com/forum/#!forum/studioware">https://groups.google.com/forum/#!forum/studioware</a>
+Studioware mailing list<br />
 <br />
 <a href="http://slackermedia.info" title="Slackermedia">http://slackermedia.info</a>
 Slackermedia is documentation providing the information a user will need to create a full multimedia studio from a Slackware base install.<br />

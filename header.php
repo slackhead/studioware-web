@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<!--SITEURL-->/stylesheets/site.css">
     <link rel="stylesheet" href="<!--SITEURL-->/stylesheets/styles.css">
     <link rel="stylesheet" href="<!--SITEURL-->/stylesheets/pygment_trac.css">
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
     <script src="<!--SITEURL-->/javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -39,11 +39,9 @@
 <!-- <a href="http://studioware.org/studiopkg">Studiopkg</a> |-->
 <a href="http://docs.slackware.com/studioware:quick_start">Quick Start</a> |
 <a href="http://studioware.org/sepkg/">Sepkg</a> |
-<a href="http://studioware.org/iso.php">Studioware Live</a> |
+<a href="http://studioware.org/iso/">Studioware Live</a> |
 <a href="http://docs.slackware.com/studioware:start">Wiki</a> |
 <a href="http://studioware.org/links">Links</a></p>
 
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
-  </body>
-</html>

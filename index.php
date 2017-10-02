@@ -60,10 +60,10 @@ if (file_exists($view . '.php')) {
     if (($view != $navigation) && (!file_exists($sitePATH . '/files/' . $navigation))) {
         header('HTTP/1.1 404 Not Found');
         $page = 'default.php';
-        #echo $filecheck;
-        #echo '<br />' . $navigation;
-        #echo '<br />' .$sitePATH . '/files/' . $navigation;
-        #exit;
+        echo $filecheck;
+        echo '<br />' . $navigation;
+        echo '<br />' .$sitePATH . '/files/' . $navigation;
+        exit;
     }
 
 } else {
