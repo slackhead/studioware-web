@@ -11,6 +11,14 @@ $previouscrumbs = '';
 
 date_default_timezone_set('UTC');
 
+if (!file_exists('files/' . $location)) {
+    header('HTTP/1.1 404 Not Found');
+    echo '<script type="text/javascript">location.href = "/";</script>';
+    #echo 'files/' . $location;
+    exit;
+}
+
+
 $lists   = get_filtered_dirlist($location, 'slackbuilds');
 $files   = $lists['files'];
 $folders = $lists['folders'];

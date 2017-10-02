@@ -51,13 +51,30 @@ unset($parts);
 //$view = array_shift(explode('/', $navigation));
 $view = explode('/', $navigation);
 $view = array_shift($view);
+$filecheck = $sitePATH . '/files/' . $view;
+$filecheck2 = $sitePATH . '/' . $view;
 
 if (file_exists($view . '.php')) {
     $page = $view . '.php';
-} else if (file_exists($navigation . '.php')) {
-    $page = $navigation . '.php';
+
+    if (($view != $navigation) && (!file_exists($sitePATH . '/files/' . $navigation))) {
+        header('HTTP/1.1 404 Not Found');
+        $page = 'default.php';
+        #echo $filecheck;
+        #echo '<br />' . $navigation;
+        #echo '<br />' .$sitePATH . '/files/' . $navigation;
+        #exit;
+    }
+
 } else {
-    // no 404 here, just the default.
+
+    if (!file_exists($filecheck) && !file_exists($filecheck2 . '.php')) {
+        header('HTTP/1.1 404 Not Found');
+        $page = 'default.php';
+}
+
+else
+
     $page = 'default.php';
 }
 
