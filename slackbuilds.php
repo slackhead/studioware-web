@@ -40,7 +40,7 @@ if (file_exists("files/$location/README")) {
 <?php if (count($crumbs) > 1): ?>
 <div class="breadcrumbs">
 <?php foreach ($crumbs as $crumb): ?>
-<span class="crumb"><a href="<!--SITEURL-->/files/<?php echo "${previouscrumbs}${crumb}"; $previouscrumbs .= "$crumb/"; ?>"><?php echo $crumb; ?></a> / </span>
+<span class="crumb"><a href="<!--SITEURL-->/<?php echo "${previouscrumbs}${crumb}/"; $previouscrumbs .= "$crumb/"; ?>"><?php echo "$crumb"; ?></a> / </span>
 <?php endforeach; ?>
 </div>
 <?php endif; ?>
