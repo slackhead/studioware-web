@@ -51,32 +51,11 @@ unset($parts);
 //$view = array_shift(explode('/', $navigation));
 $view = explode('/', $navigation);
 $view = array_shift($view);
-$filecheck = $sitePATH . '/files/' . $view;
-$filecheck2 = $sitePATH . '/' . $view;
 
 if (file_exists($view . '.php')) {
     $page = $view . '.php';
-
-    if (($view != $navigation) && (!file_exists($sitePATH . '/files/' . $navigation))) {
-        header('HTTP/1.1 404 Not Found');
-        $page = 'default.php';
-        echo $filecheck;
-        echo '<br />' . $navigation;
-        echo '<br />' .$sitePATH . '/files/' . $navigation;
-        exit;
-    }
-
-} else {
-
-    if (!file_exists($filecheck) && !file_exists($filecheck2 . '.php')) {
-        header('HTTP/1.1 404 Not Found');
-        $page = 'default.php';
-}
-
-else
-
+} else
     $page = 'default.php';
-}
 
 /** Build the page **/
 // header includes the navigation for now.
@@ -85,7 +64,6 @@ require_once "header.php";
 ?>
 <div id="content" class="clearfix">
 <?php require_once $page;
-
 require_once "footer.php"; ?>
 <?php
 /** Actually do the output **/
