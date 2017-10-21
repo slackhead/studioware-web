@@ -17,7 +17,7 @@ if (!file_exists('files/' . $location)) {
 }
 
 if (file_exists('files/' . $location) && !is_dir('files/' . $location)) {
-    header('Location: ' . '/files/' . $location, true, 301);
+    header('Location: ' . '/files/' . $location);
     die();
 }
 
