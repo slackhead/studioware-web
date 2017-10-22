@@ -11,16 +11,16 @@ $previouscrumbs = '';
 
 date_default_timezone_set('UTC');
 
-if (!file_exists('files/' . $location)) {
-    header('Location: /', true, 404);
-    die();
-}
-
-if (file_exists('files/' . $location) && !is_dir('files/' . $location)) {
-    header('Location: ' . '/files/' . $location);
-    die();
-}
-
+#if (!file_exists('files/' . $location)) {
+#    header('Location: /', true, 404);
+#    die();
+#}
+#
+#if (file_exists('files/' . $location) && !is_dir('files/' . $location)) {
+#    header('Location: ' . '/files/' . $location);
+#    die();
+#}
+#
 
 $lists   = get_filtered_dirlist($location, 'slackbuilds');
 $files   = $lists['files'];

@@ -35,6 +35,7 @@ $request_uri = trim(str_replace(dirname($_SERVER['SCRIPT_NAME']), '', $_SERVER['
 $request_uri =  trim($_SERVER['REQUEST_URI'], '/');
 $parts = explode('?', $request_uri, 2);
 $navigation = array_shift($parts);
+$location = str_replace("/..", '',$navigation);
 
 if (!empty($parts[0])) {
     $paramlist = explode('&', $parts[0]);
@@ -56,6 +57,16 @@ if (file_exists($view . '.php')) {
     $page = $view . '.php';
 } else
     $page = 'default.php';
+
+if (!file_exists('files/' . $location)) {
+    header('Location: /', true, 404);
+    $page = 'default.php';
+}
+
+if (file_exists('files/' . $location) && !is_dir('files/' . $location)) {
+    header('Location: ' . '/files/' . $location);
+    die();
+}
 
 /** Build the page **/
 // header includes the navigation for now.
