@@ -1,13 +1,15 @@
-ErrorDocument 404 404
+ErrorDocument 404 /index.php
 Options +Indexes
 RewriteEngine On
-RewriteCond $1 !^(index\.php|robots\.txt|images|js|wiki|stylesheets|css|files)
+RewriteCond $1 !^(index\.php|robots\.txt|images|js|wiki|stylesheets|css|files|goodguy)
 RewriteRule ^(.*)$ /index.php/$1 [L]
 AddType application/x-gzip txz
+AddType text/plain md
 AddType text/plain md5
 AddType text/plain asc
 AddType text/plain sh
 AddType text/plain sqf
+DefaultType text/plain
 
 
 # vim:tw=0

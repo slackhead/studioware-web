@@ -58,7 +58,7 @@ if (file_exists($view . '.php')) {
 } else
     $page = 'default.php';
 
-if (!file_exists('files/' . $location)) {
+if (!file_exists('files/' . $location) && $view != 'slackbuilds') {
     header('Location: /', true, 404);
     $page = 'default.php';
 }
@@ -75,6 +75,8 @@ require_once "header.php";
 ?>
 <div id="content" class="clearfix">
 <?php require_once $page;
+#echo $page . '<br>';
+#echo $location . '<br>';
 require_once "footer.php"; ?>
 <?php
 /** Actually do the output **/
