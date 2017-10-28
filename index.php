@@ -58,7 +58,7 @@ if (file_exists($view . '.php')) {
 } else
     $page = 'default.php';
 
-if (!file_exists('files/' . $location) && $view != 'slackbuilds') {
+if (!file_exists('files/' . $location) && $location != 'links' && $location != 'packages') {
     header('Location: /', true, 404);
     $page = 'default.php';
 }
