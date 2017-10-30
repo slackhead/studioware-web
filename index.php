@@ -58,10 +58,10 @@ if (file_exists($view . '.php')) {
 } else
     $page = 'default.php';
 
-if (!file_exists('files/' . $location) && $location != 'links' && $location != 'packages') {
-    header('Location: /', true, 404);
-    $page = 'default.php';
-}
+#if (!file_exists('files/' . $location) && $location != 'links' && $location != 'packages') {
+#    header('Location: /', true, 404);
+#    $page = 'default.php';
+#}
 
 if (file_exists('files/' . $location) && !is_dir('files/' . $location)) {
     header('Location: ' . '/files/' . $location);
@@ -74,7 +74,14 @@ require_once "header.php";
 //require_once "navigation.php";
 ?>
 <div id="content" class="clearfix">
-<?php require_once $page;
+<?php #require_once $page;
+if (isset($page) && (file_exists('files/' . $location) || file_exists($location)) || file_exists($navigation . '.php')) {
+        require_once $page;
+}
+else {
+    header('HTTP/1.1 404 Not Found');
+    require_once 'default.php';
+}
 #echo $page . '<br>';
 #echo $location . '<br>';
 require_once "footer.php"; ?>
