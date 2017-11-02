@@ -35,10 +35,11 @@
 <a href="http://docs.slackware.com/studioware:applications_list">Applications</a> |
 <a href="http://studioware.org/slackbuilds/">SlackBuilds</a> |
 <a href="http://studioware.org/packages/">Packages</a> |
-<a href="http://docs.slackware.com/studioware:start">SlackDocs Start</a> |
+<a href="http://docs.slackware.com/studioware:start">SlackDocs</a> |
 <a href="http://docs.slackware.com/studioware:quick_start">Quick Start</a> |
 <a href="http://studioware.org/sepkg/">Sepkg</a> |
 <a href="http://studioware.org/iso/">Studioware Live</a> |
+<a href="http://studioware.org/kernels/">Kernels</a> |
 <a href="http://docs.slackware.com/studioware:start">Wiki</a> |
 <a href="http://studioware.org/links">Links</a></p>
 
