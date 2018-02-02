@@ -198,7 +198,7 @@ section {
 	font-size: 1em;
 }
 
-section p {
+section .indent {
 	text-indent: 1em;
 }
 
@@ -211,7 +211,7 @@ section li {
 	color: #fff;
 	margin: 0 auto 1em auto;
 	text-align: center;
-	padding: 0.2em 0 0.2em 5px;
+	padding: 0.4em 0 0.4em 5px;
 	width: 100%;
 	font-size: 0.9em;
 	-webkit-border-radius: 0.5em;
@@ -287,12 +287,14 @@ section li {
 
 .readme {
 	white-space: pre-wrap;
-	font-size: 1em;
 	background: #FDFEFB;
 	overflow: auto;
 	overflow-y: hidden;
-	color:#000;
-	font-size:1em;
+	color: #000;
+	text-indent: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
 }
 
 .warning {
@@ -307,12 +309,13 @@ section li {
 #footer {
 	margin: 0 auto 0 auto;
 	text-align: center;
-	padding-top: 0px;
+	padding-top: 1em;
 	color: #333;
+	border-top: 1px solid #aaa;
 }
 
 #footer p {
-	font-size: 0.6em;
-	line-height: 1.4em;
+	font-size: 0.8em;
+	line-height: 1em;
 }
 
