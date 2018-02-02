@@ -5,7 +5,7 @@ $pageTitle="The Studioware Project";
 <!doctype html>
 <html>
   <body>
-<hr><h3>
+<h3>
 <a name="about-the-studioware-project" class="anchor" href="#about-the-studioware-project"><span class="octicon octicon-link"></span></a>The Studioware Project</h3>
 
 <p>Studioware is a project aimed at providing build scripts and packages of the best open source audio, video and photo editing software available for Slackware Linux.
@@ -17,12 +17,11 @@ and is hosted by the Slackware Documentation Project. See the <a href="http://do
 <h3>
 <a name="network" class="anchor" href="#network"><span class="octicon octicon-link"></span></a>Network</h3>
 
-<p>
-IRC: irc.freenode.net #studioware</br>
-IRC2: irc.oftc.net #studioware (backup channel)</br>
-Mailing list: <a href="http://groups.google.com/group/studioware">http://groups.google.com/group/studioware</a></br>
-<!--Mailing list: <a href="http://lists.studioware.org">http://lists.studioware.org</a></p>-->
-
+<ul>
+<li>IRC: irc.freenode.net #studioware</br></li>
+<li>IRC2: irc.oftc.net #studioware (backup channel)</br></li>
+<li>Mailing list: <a href="http://groups.google.com/group/studioware">http://groups.google.com/group/studioware</a></br></li>
+</ul>
 
 <h3>
 <a name="get-involved" class="anchor" href="#get-involved"><span class="octicon octicon-link"></span></a>Get Involved!</h3>
