@@ -31,6 +31,6 @@
 <a href="http://docs.slackware.com/studioware:start">SlackDocs</a>
 <a href="http://studioware.org/sepkg/">Sepkg</a>
 <a href="http://studioware.org/iso/">Studio Live</a>
-<a href="http://studioware.org/kernels/">Kernels</a>
+<!--<a href="http://studioware.org/kernels/">Kernels</a>-->
 <a href="http://studioware.org/links">Links</a></p>
 
