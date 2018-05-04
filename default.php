@@ -16,7 +16,7 @@ and is hosted by the Slackware Documentation Project.
 </p>
 
 <p class="indent">
-Please read the <a href="http://docs.slackware.com/studioware:quick_start">Quick Start</a> guide and read the pre-install tasks to get started.
+Please read the <a href="http://docs.slackware.com/studioware:quick_start">Quick Start</a> guide and read the pre-installation tasks to get started.
 </p>
 
 <h3>
