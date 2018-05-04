@@ -124,7 +124,7 @@ h1.header, a.header, a.name, header a{
 }
 
 a.header {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a.name {
@@ -226,6 +226,7 @@ section li {
 	color: #fff;
 	font-weight: bold;
 	margin: 0 0.5em 0 0.5em;
+    text-decoration: none;
 }
 
 .breadcrumbs {
