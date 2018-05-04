@@ -12,7 +12,7 @@
     <div class="wrapper">
       <header>
         <h1 class="header">Studioware</h1>
-        <p class="header">We make the tools.</br>You make the music.</p> 
+        <p class="header">We make the tools.</br>You make the music.</p>
 
         <ul>
           <li><a class="buttons quick" href="http://docs.slackware.com/studioware:quick_start">Quick Start</a></li>
@@ -25,10 +25,10 @@
       <section>
         <p class="links">
 <a href="http://studioware.org">Home</a>
+<a href="http://docs.slackware.com/studioware:start">Guide/Docs</a>
 <a href="http://docs.slackware.com/studioware:applications_list">Applications</a>
 <a href="http://studioware.org/slackbuilds/">SlackBuilds</a>
 <a href="http://studioware.org/packages/">Packages</a>
-<a href="http://docs.slackware.com/studioware:start">SlackDocs</a>
 <a href="http://studioware.org/sepkg/">Sepkg</a>
 <a href="http://studioware.org/iso/">Studio Live</a>
 <!--<a href="http://studioware.org/kernels/">Kernels</a>-->
